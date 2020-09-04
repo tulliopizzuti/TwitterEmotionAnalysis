@@ -1,54 +1,55 @@
-import org.chaiware.app.TextToEmotion;
-import org.chaiware.emotion.EmotionalState;
-import org.json.JSONObject;
+package it.unisa.degpizz;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonStreamParser;
+import com.google.gson.reflect.TypeToken;
+import com.google.gson.stream.JsonReader;
+
+import java.io.*;
+import java.lang.reflect.Type;
+import java.util.Arrays;
+import java.util.List;
 
 public class Main {
-    public static void main(String[] args) throws IOException {
+    private static final List<String> langToParse= Arrays.asList("en");
 
-        BufferedReader reader = new BufferedReader(new FileReader("39.json"));
-        String line = reader.readLine();
+    public static void main(String[] args) throws Exception {
+        int counterParsed=0;
+        if (args == null || args.length < 1) {
+            System.out.println("Inserire il path contenente i file .json");
+            return;
+        }
+        String mainPath = args[0];
+        File mainDir = new File(mainPath);
+        if (!mainDir.isDirectory()) {
+            System.out.println("Il path non è una directory");
+            return;
+        }
+        File[] jsonFiles = mainDir.listFiles((file, s) -> s.endsWith(".json"));
+        if (jsonFiles == null || jsonFiles.length <= 0) {
+            System.out.println("Non sono presenti file .json nel path selezionato");
+            return;
+        }
+        MapCounter mapCounter = new MapCounter();
+        GsonBuilder gsonBuilder = new GsonBuilder();
+        Gson gson = gsonBuilder.create();
 
-        HashMap<String, Integer> hashMap = new HashMap<String, Integer>();
-        hashMap.put("NEUTRAL", 0);
-        hashMap.put("HAPPINESS", 0);
-        hashMap.put("SADNESS", 0);
-        hashMap.put("FEAR", 0);
-        hashMap.put("ANGER", 0);
-        hashMap.put("DISGUST", 0);
-        hashMap.put("SURPRISE", 0);
-
-        while (line != null) {
-            if(!(line.substring(2, 8).equals("delete"))){
-                JSONObject obj = new JSONObject(line);
-                String lang = obj.getString("lang");
-                String text = obj.getString("text");
-
-                if(lang.equals("en")) {
-                    try {
-                        EmotionalState e = TextToEmotion.textToEmotion(text);
-                        Integer cc = hashMap.get(e.getStrongestEmotionAsString());
-                        cc++;
-                        hashMap.put(e.getStrongestEmotionAsString(), cc);
-                    } catch (Exception ex) {
-                        ex.printStackTrace();
-                    }
+        for (File f : jsonFiles) {
+            JsonStreamParser jsonStreamParser = new JsonStreamParser(new BufferedReader(new FileReader(f)));
+            while (jsonStreamParser.hasNext()) {
+                JsonElement element = jsonStreamParser.next();
+                Tweet tweets = gson.fromJson(element, Tweet.class);
+                if(langToParse.contains(tweets.getLang())){
+                    mapCounter.parseText(tweets.getText());
+                    System.out.println(++counterParsed);
                 }
             }
-            line = reader.readLine();
-        }
-        reader.close();
 
-        Iterator iterator = hashMap.entrySet().iterator();
-        while (iterator.hasNext()) {
-            Map.Entry me2 = (Map.Entry) iterator.next();
-            System.out.println(me2.getKey() + " - " + me2.getValue());
         }
+        System.out.println( mapCounter.toString());
+
+
     }
 }
