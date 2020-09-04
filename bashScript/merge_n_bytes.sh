@@ -30,7 +30,6 @@ do
   		((tot=$fileByte))
   		parzList=${fileList[i]}
   		((j++))
-  		break
   	fi
 	if [ $i == $totFileIter ]
 	then
