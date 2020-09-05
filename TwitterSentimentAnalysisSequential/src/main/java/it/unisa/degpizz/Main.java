@@ -9,14 +9,21 @@ import com.google.gson.stream.JsonReader;
 
 import java.io.*;
 import java.lang.reflect.Type;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.Arrays;
+import java.util.Date;
 import java.util.List;
 
 public class Main {
-    private static final List<String> langToParse= Arrays.asList("en");
+    private static final List<String> LANGTOPARSE = Arrays.asList("en");
+    private static final DateFormat DF=new SimpleDateFormat("dd/MM/yyyy HH:mm:ss:SSS");
+    public static void main(String[] args) {
 
-    public static void main(String[] args) throws Exception {
-        int counterParsed=0;
+        int counterTextParsed = 0;
+        int counterFileParsed = 0;
+        int parseTextError = 0;
+        int fileOpenError = 0;
         if (args == null || args.length < 1) {
             System.out.println("Inserire il path contenente i file .json");
             return;
@@ -35,21 +42,41 @@ public class Main {
         MapCounter mapCounter = new MapCounter();
         GsonBuilder gsonBuilder = new GsonBuilder();
         Gson gson = gsonBuilder.create();
-
+        long millisStart = System.currentTimeMillis();
+        System.out.println(String.format("Inizio: %s", DF.format(new Date(millisStart))));
         for (File f : jsonFiles) {
-            JsonStreamParser jsonStreamParser = new JsonStreamParser(new BufferedReader(new FileReader(f)));
-            while (jsonStreamParser.hasNext()) {
-                JsonElement element = jsonStreamParser.next();
-                Tweet tweets = gson.fromJson(element, Tweet.class);
-                if(langToParse.contains(tweets.getLang())){
-                    mapCounter.parseText(tweets.getText());
-                    System.out.println(++counterParsed);
+            try (BufferedReader br = new BufferedReader(new FileReader(f))) {
+                JsonStreamParser jsonStreamParser = new JsonStreamParser(br);
+                while (jsonStreamParser.hasNext()) {
+                    JsonElement element = jsonStreamParser.next();
+                    Tweet tweets = gson.fromJson(element, Tweet.class);
+                    if (LANGTOPARSE.contains(tweets.getLang())) {
+                        try {
+                            mapCounter.parseText(tweets.getText());
+                            counterTextParsed++;
+                        } catch (Exception e) {
+                            parseTextError++;
+                        }
+
+                    }
                 }
+            } catch (Exception e) {
+                fileOpenError++;
             }
-
+            counterFileParsed++;
         }
-        System.out.println( mapCounter.toString());
-
-
+        long millisFinish = System.currentTimeMillis();
+        System.out.println(String.format("Fine: %s",  DF.format(new Date(millisFinish))));
+        long millis = (millisFinish-millisStart) % 1000;
+        long seconds = (millisFinish-millisStart) / 1000;
+        long minutes = seconds / 60;
+        long hours = minutes / 60;
+        long days = hours / 24;
+        System.out.println(String.format("Tempo impiegato: %02d:%02d:%02d:%02d:%03d",days,hours,minutes,seconds,millis  ));
+        System.out.println(mapCounter.toString());
+        System.out.println(String.format("Successi parseText: %d", counterTextParsed));
+        System.out.println(String.format("Successi openFile: %d", counterFileParsed));
+        System.out.println(String.format("Errori parseText: %d", parseTextError));
+        System.out.println(String.format("Errori openFile: %d", fileOpenError));
     }
 }
