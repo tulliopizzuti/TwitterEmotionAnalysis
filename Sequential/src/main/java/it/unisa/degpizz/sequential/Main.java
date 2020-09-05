@@ -37,8 +37,7 @@ public class Main {
             return;
         }
         MapCounter mapCounter = new MapCounter();
-        GsonBuilder gsonBuilder = new GsonBuilder();
-        Gson gson = gsonBuilder.create();
+        Gson gson = new GsonBuilder().create();
         long millisStart = System.currentTimeMillis();
         System.out.println(String.format("Inizio: %s", DF.format(new Date(millisStart))));
         for (File f : jsonFiles) {
