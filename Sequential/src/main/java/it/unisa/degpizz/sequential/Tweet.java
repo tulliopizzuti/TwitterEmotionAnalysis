@@ -1,4 +1,4 @@
-package it.unisa.degpizz;
+package it.unisa.degpizz.sequential;
 
 public class Tweet {
     private String text;

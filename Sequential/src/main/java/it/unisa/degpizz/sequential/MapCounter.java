@@ -1,4 +1,4 @@
-package it.unisa.degpizz;
+package it.unisa.degpizz.sequential;
 
 import org.chaiware.app.TextToEmotion;
 
