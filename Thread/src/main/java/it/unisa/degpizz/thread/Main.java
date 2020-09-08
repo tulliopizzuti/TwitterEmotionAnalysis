@@ -25,7 +25,7 @@ public class Main {
         AtomicInteger parseTextError = new AtomicInteger(0);
         AtomicInteger fileOpenError = new AtomicInteger(0);
         if (args == null || args.length < 1) {
-            System.out.println("Inserire il path contenente i file .json");
+            System.out.println("Inserire il path contenente i file .bz2");
             return;
         }
         if (args.length > 2) {
@@ -47,9 +47,9 @@ public class Main {
             System.out.println("Il path non è una directory");
             return;
         }
-        File[] jsonFiles = mainDir.listFiles((file, s) -> s.endsWith(".json"));
+        File[] jsonFiles = mainDir.listFiles((file, s) -> s.endsWith(".bz2"));
         if (jsonFiles == null || jsonFiles.length <= 0) {
-            System.out.println("Non sono presenti file .json nel path selezionato");
+            System.out.println("Non sono presenti file .bz2 nel path selezionato");
             return;
         }
         if (jsonFiles.length < N_THREADS) {

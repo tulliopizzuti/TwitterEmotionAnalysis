@@ -4,11 +4,11 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonStreamParser;
+import org.apache.commons.compress.compressors.CompressorException;
+import org.apache.commons.compress.compressors.CompressorStreamFactory;
 
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
+import java.io.*;
 import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -25,8 +25,8 @@ public class TweetThread extends Thread {
     private Gson gson;
     private String name;
 
-    public TweetThread(String name,MapCounter mapCounter, AtomicInteger counterTextParsed, AtomicInteger counterFileParsed, AtomicInteger parseTextError, AtomicInteger fileOpenError, File[] filesToParse) {
-        this.name=name;
+    public TweetThread(String name, MapCounter mapCounter, AtomicInteger counterTextParsed, AtomicInteger counterFileParsed, AtomicInteger parseTextError, AtomicInteger fileOpenError, File[] filesToParse) {
+        this.name = name;
         this.counterTextParsed = counterTextParsed;
         this.counterFileParsed = counterFileParsed;
         this.parseTextError = parseTextError;
@@ -38,9 +38,9 @@ public class TweetThread extends Thread {
 
     @Override
     public void run() {
-        System.out.println(String.format("Avviato il thread: %s",name));
+        System.out.println(String.format("Avviato il thread: %s", name));
         for (File f : filesToParse) {
-            try (BufferedReader br = new BufferedReader(new FileReader(f))) {
+            try (BufferedReader br = getBufferedReaderForCompressedFile(f)) {
                 JsonStreamParser jsonStreamParser = new JsonStreamParser(br);
                 while (jsonStreamParser.hasNext()) {
                     JsonElement element = jsonStreamParser.next();
@@ -60,7 +60,12 @@ public class TweetThread extends Thread {
             }
             counterFileParsed.incrementAndGet();
         }
-        System.out.println(String.format("Terminato il thread: %s",name));
+        System.out.println(String.format("Terminato il thread: %s", name));
 
+    }
+
+    public BufferedReader getBufferedReaderForCompressedFile(File fileIn) throws FileNotFoundException, CompressorException {
+
+        return new BufferedReader(new InputStreamReader(new CompressorStreamFactory().createCompressorInputStream(new BufferedInputStream(new FileInputStream(fileIn)))));
     }
 }
