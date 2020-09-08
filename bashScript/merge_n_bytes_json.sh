@@ -25,7 +25,7 @@ do
   		parzList+="  ${fileList[i]}"
   	else
   		echo "${tot}"
-  		bzip2 -c ${parzList} | bzip2 > $output/$j.json.bz2
+  		bzip2 -c ${parzList} > $output/$j.json.bz2
   		echo "${j}.json.bz2 completato"
   		((totParz+=$tot))
   		((tot=$fileByte))
@@ -35,7 +35,7 @@ do
 	if [ $i == $totFileIter ]
 	then
 		echo "${tot}"
-  		bzip2 -c ${parzList} | bzip2 > $output/$j.json.bz2
+  		bzip2 -c ${parzList} > $output/$j.json.bz2
   		echo "${j}.json.bz2 completato"
   		((totParz+=$tot))
   		((tot=$fileByte))
