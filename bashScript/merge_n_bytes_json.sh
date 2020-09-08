@@ -1,8 +1,9 @@
-base=e_04
-maxMb=128
+base=/media/tullio/223809393D6A6F74/e_04
+output=/media/tullio/223809393D6A6F74/e_04
+maxMb=25
 maxByte=$((maxMb*1000000))
 mkdir $base
-fileList=($(find ./04 -type f -name *.json.bz2))
+fileList=($(find ${base} -type f -name *.json))
 j=1
 tot=0
 totByte=0
@@ -24,7 +25,7 @@ do
   		parzList+="  ${fileList[i]}"
   	else
   		echo "${tot}"
-  		bzip2 -dc ${parzList} | bzip2 > $base/$j.json.bz2
+  		bzip2 -c ${parzList} | bzip2 > $output/$j.json.bz2
   		echo "${j}.json.bz2 completato"
   		((totParz+=$tot))
   		((tot=$fileByte))
@@ -34,7 +35,7 @@ do
 	if [ $i == $totFileIter ]
 	then
 		echo "${tot}"
-  		bzip2 -dc ${parzList} | bzip2 > $base/$j.json.bz2
+  		bzip2 -c ${parzList} | bzip2 > $output/$j.json.bz2
   		echo "${j}.json.bz2 completato"
   		((totParz+=$tot))
   		((tot=$fileByte))
