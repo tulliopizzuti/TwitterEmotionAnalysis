@@ -1,0 +1,25 @@
+set 10, 2020 9:56:30 PM it.unisa.degpizz.thread.Main main
+INFORMAZIONI: Inizio: 10/09/2020 21:56:30:860
+set 11, 2020 4:18:48 AM it.unisa.degpizz.thread.Main main
+INFORMAZIONI: Fine: 11/09/2020 04:18:48:161
+set 11, 2020 4:18:48 AM it.unisa.degpizz.thread.Main main
+INFORMAZIONI: Tempo impiegato: 00:06:382:22937:301
+set 11, 2020 4:18:48 AM it.unisa.degpizz.thread.Main main
+INFORMAZIONI: MapCounter:
+FEAR : 1790138
+DISGUST : 2113152
+SURPRISE : 1402738
+HAPPINESS : 16507719
+NEUTRAL : 10158064
+SADNESS : 8625609
+ANGER : 3417645
+set 11, 2020 4:18:48 AM it.unisa.degpizz.thread.Main main
+INFORMAZIONI: Successi parseText: 44015065
+set 11, 2020 4:18:48 AM it.unisa.degpizz.thread.Main main
+INFORMAZIONI: Successi openFile: 380
+set 11, 2020 4:18:48 AM it.unisa.degpizz.thread.Main main
+INFORMAZIONI: Errori parseText: 0
+set 11, 2020 4:18:48 AM it.unisa.degpizz.thread.Main main
+INFORMAZIONI: Errori openFile: 0
+
+Process finished with exit code 0
