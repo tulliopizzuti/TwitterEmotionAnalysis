@@ -1,6 +1,9 @@
 Introduzione
 	Big data
 	Hadoop
+		HDFS
+		MapReduce
+		Yarn
 	Spark
 Progetto
 	Scopo del progetto
