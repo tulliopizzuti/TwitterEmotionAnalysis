@@ -1,0 +1,17 @@
+Introduzione
+	Big data
+	Hadoop
+	Spark
+Progetto
+	Scopo del progetto
+	Studio del dataset
+	Approcci
+		Sequenziale
+		Thread
+		Spark
+Testing
+	Configurazioni macchine singole
+	Risultitati sequenziale
+	Risultati thread
+	Configurazione cluster
+	Risultati cluster
