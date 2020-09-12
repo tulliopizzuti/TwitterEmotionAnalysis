@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/Thread/pom.xml" />
         <option value="$PROJECT_DIR$/Sequential/pom.xml" />
+        <option value="$PROJECT_DIR$/Spark/pom.xml" />
       </list>
     </option>
   </component>
