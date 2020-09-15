@@ -13,7 +13,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Sequential" target="8" />
-      <module name="Spark" target="1.5" />
+      <module name="Spark" target="8" />
       <module name="Thread" target="8" />
       <module name="TweetParseEmotion" target="1.5" />
       <module name="TwitterSentimentAnalysisSequential" target="8" />
