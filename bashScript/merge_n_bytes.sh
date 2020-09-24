@@ -44,4 +44,4 @@ do
 	fi
 	
 done
-echo "${totByte} - ${totParz} - ${j}"
+echo "${totByte} - ${totParz} - ${i}"
