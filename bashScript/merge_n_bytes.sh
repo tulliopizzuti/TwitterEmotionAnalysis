@@ -8,7 +8,6 @@ tot=0
 totByte=0
 totParz=0
 parzList=""
-
 totFile=${#fileList[@]}
 totFileIter=$(($totFile-1))
 
@@ -41,7 +40,10 @@ do
   		parzList=${fileList[i]}
   		((j++))
 	
-	fi
-	
+	fi	
 done
 echo "${totByte} - ${totParz} - ${i}"
+
+
+
+

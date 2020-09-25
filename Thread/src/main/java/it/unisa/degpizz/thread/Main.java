@@ -58,6 +58,8 @@ public class Main {
             LOGGER.log(Level.SEVERE, "Il numero di file è minore del numero di Thread");
             return;
         }
+
+
         MapCounter mapCounter = new MapCounter();
         List<TweetThread> threadArrays = new ArrayList<>();
         int division = jsonFiles.length / N_THREADS;
@@ -85,6 +87,9 @@ public class Main {
 
         long millisFinish = System.currentTimeMillis();
         LOGGER.log(Level.INFO, String.format("Fine: %s", DF.format(new Date(millisFinish))));
+
+
+
         long millis = (millisFinish - millisStart) % 1000;
         long seconds = (millisFinish - millisStart) / 1000;
         long minutes = seconds / 60;

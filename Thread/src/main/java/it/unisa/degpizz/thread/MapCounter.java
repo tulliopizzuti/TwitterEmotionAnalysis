@@ -17,7 +17,7 @@ public class MapCounter {
         increment(TextToEmotion.textToEmotionString(text));
     }
 
-    public void increment(String key) {
+    public synchronized void increment(String key) {
         if (map.containsKey(key)) {
             Integer i = map.get(key);
             i++;
