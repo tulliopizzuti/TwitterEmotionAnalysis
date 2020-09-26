@@ -32,16 +32,21 @@ public final class SparkTweetAnalysis {
         FileSystem fs = FileSystem.get(spark.sparkContext().hadoopConfiguration());
         fs.delete(new Path(args[1]), true);
 
+
+
         spark
                 .read()
                 .json(args[0])
-                .filter((FilterFunction<Row>) row -> LANGTOPARSE.contains(row.getString(row.fieldIndex("lang"))))
+                .filter((FilterFunction<Row>) row ->
+                        LANGTOPARSE.contains(row.getString(row.fieldIndex("lang"))))
                 .select("text")
                 .toJSON()
                 .toJavaRDD()
                 .mapToPair(s -> new Tuple2<>(TextToEmotion.textToEmotionString(s), 1))
                 .reduceByKey((a, b) -> a + b)
                 .saveAsTextFile(args[1]);
+
+
 
     }
 
