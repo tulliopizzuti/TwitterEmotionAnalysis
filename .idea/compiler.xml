@@ -6,15 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Sequential" />
-        <module name="Thread" />
         <module name="Spark" />
+        <module name="Sequential" />
+        <module name="ThreadInformation" />
+        <module name="Thread" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Sequential" target="8" />
       <module name="Spark" target="8" />
       <module name="Thread" target="8" />
+      <module name="ThreadInformation" target="8" />
       <module name="TweetParseEmotion" target="1.5" />
       <module name="TwitterSentimentAnalysisSequential" target="8" />
     </bytecodeTargetLevel>
