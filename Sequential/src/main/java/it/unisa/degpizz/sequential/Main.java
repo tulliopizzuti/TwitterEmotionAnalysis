@@ -56,7 +56,7 @@ public class Main {
                 JsonStreamParser jsonStreamParser = new JsonStreamParser(br);
                 while (jsonStreamParser.hasNext()) {
                     Tweet tweets = gson.fromJson(jsonStreamParser.next(), Tweet.class);
-                    if (LANGTOPARSE.contains(tweets.getLang())) {
+                   // if (LANGTOPARSE.contains(tweets.getLang())) {
                         try {
                             mapCounter.parseText(tweets.getText());
                             counterTextParsed++;
@@ -64,7 +64,7 @@ public class Main {
                             parseTextError++;
                         }
 
-                    }
+                    //}
                 }
             } catch (Exception e) {
                 fileOpenError++;

@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="PreprocessingDataset" />
         <module name="Spark" />
         <module name="Sequential" />
         <module name="ThreadInformation" />
@@ -13,6 +14,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="PreprocessingDataset" target="8" />
       <module name="Sequential" target="8" />
       <module name="Spark" target="8" />
       <module name="Thread" target="8" />

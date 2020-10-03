@@ -42,7 +42,7 @@ do
 	
 	fi	
 done
-echo "${totByte} - ${totParz} - ${i}"
+echo "${totByte} - ${totParz} - ${j}"
 
 
 

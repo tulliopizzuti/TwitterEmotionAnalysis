@@ -23,3 +23,4 @@ set 29, 2020 9:50:40 AM it.unisa.degpizz.sequential.Main main
 INFORMAZIONI: Errori openFile: 0
 
 Process finished with exit code 0
+

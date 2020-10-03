@@ -25,6 +25,7 @@
         <option value="$PROJECT_DIR$/Sequential/pom.xml" />
         <option value="$PROJECT_DIR$/Spark/pom.xml" />
         <option value="$PROJECT_DIR$/ThreadInformation/pom.xml" />
+        <option value="$PROJECT_DIR$/PreprocessingDataset/pom.xml" />
       </list>
     </option>
   </component>
