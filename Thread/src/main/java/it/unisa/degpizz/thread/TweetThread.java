@@ -18,7 +18,6 @@ import java.util.logging.Logger;
 public class TweetThread extends Thread {
     private final Logger LOGGER = Logger.getLogger(TweetThread.class.getName());
 
-    private final List<String> LANGTOPARSE = Arrays.asList("en");
 
     private AtomicInteger counterTextParsed;
     private AtomicInteger counterFileParsed;
@@ -51,15 +50,14 @@ public class TweetThread extends Thread {
                 while (jsonStreamParser.hasNext()) {
                     JsonElement element = jsonStreamParser.next();
                     Tweet tweets = gson.fromJson(element, Tweet.class);
-                    if (LANGTOPARSE.contains(tweets.getLang())) {
-                        try {
-                            mapCounter.parseText(tweets.getText());
-                            counterTextParsed.incrementAndGet();
-                        } catch (Exception e) {
-                            parseTextError.incrementAndGet();
-                        }
-
+                    try {
+                        mapCounter.parseText(tweets.getText());
+                        counterTextParsed.incrementAndGet();
+                    } catch (Exception e) {
+                        parseTextError.incrementAndGet();
                     }
+
+
                 }
                 LOGGER.log(Level.INFO, String.format("Thread: %s - Fine file %s", name, f.getName()));
 

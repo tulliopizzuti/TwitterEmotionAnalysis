@@ -19,7 +19,6 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class Main {
-    private static final List<String> LANGTOPARSE = Arrays.asList("en");
     private static final DateFormat DF = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss:SSS");
     private static final Logger LOGGER = Logger.getLogger(Main.class.getName());
 
@@ -56,7 +55,6 @@ public class Main {
                 JsonStreamParser jsonStreamParser = new JsonStreamParser(br);
                 while (jsonStreamParser.hasNext()) {
                     Tweet tweets = gson.fromJson(jsonStreamParser.next(), Tweet.class);
-                   // if (LANGTOPARSE.contains(tweets.getLang())) {
                         try {
                             mapCounter.parseText(tweets.getText());
                             counterTextParsed++;
@@ -64,7 +62,7 @@ public class Main {
                             parseTextError++;
                         }
 
-                    //}
+
                 }
             } catch (Exception e) {
                 fileOpenError++;

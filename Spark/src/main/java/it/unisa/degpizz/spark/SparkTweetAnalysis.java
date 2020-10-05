@@ -37,8 +37,6 @@ public final class SparkTweetAnalysis {
         spark
                 .read()
                 .json(args[0])
-                .filter((FilterFunction<Row>) row ->
-                        LANGTOPARSE.contains(row.getString(row.fieldIndex("lang"))))
                 .select("text")
                 .toJSON()
                 .toJavaRDD()
