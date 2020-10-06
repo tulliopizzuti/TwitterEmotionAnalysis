@@ -1,0 +1,24 @@
+ott 06, 2020 12:41:18 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio: 06/10/2020 00:41:18:931
+ott 06, 2020 12:41:18 AM it.unisa.degpizz.sequential.Main main
+
+INFORMAZIONI: Fine: 06/10/2020 07:07:03:334
+ott 06, 2020 7:07:03 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Tempo impiegato: 00:06:385:23144:403
+ott 06, 2020 7:07:03 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: MapCounter:
+FEAR : 1790139
+DISGUST : 2113152
+SURPRISE : 1402738
+HAPPINESS : 16507719
+NEUTRAL : 10158064
+SADNESS : 8625609
+ANGER : 3417644
+ott 06, 2020 7:07:03 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Successi parseText: 44015065
+ott 06, 2020 7:07:03 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Successi openFile: 231
+ott 06, 2020 7:07:03 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Errori parseText: 0
+ott 06, 2020 7:07:03 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Errori openFile: 0

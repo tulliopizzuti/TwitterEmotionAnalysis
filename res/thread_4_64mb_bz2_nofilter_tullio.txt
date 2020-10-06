@@ -1,0 +1,27 @@
+/usr/lib/jvm/java-1.8.0-openjdk-amd64/bin/java -javaagent:/home/tullio/idea-IC-202.6948.69/lib/idea_rt.jar=46809:/home/tullio/idea-IC-202.6948.69/bin -Dfile.encoding=UTF-8 -classpath /usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/cldrdata.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/icedtea-sound.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/jaccess.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/nashorn.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/sunec.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/management-agent.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar:/home/tullio/Project/soa/TwitterEmotionAnalysis/Thread/target/classes:/home/tullio/Project/soa/TwitterEmotionAnalysis/extLib/TextToEmotion.jar:/home/tullio/.m2/repository/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar:/home/tullio/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar it.unisa.degpizz.thread.Main /home/tullio/Project/soa/data/e_04_64 4
+ott 05, 2020 7:28:40 PM it.unisa.degpizz.thread.Main main
+INFORMAZIONI: Inizio: 05/10/2020 19:28:40:069
+
+ott 05, 2020 11:56:54 PM it.unisa.degpizz.thread.Main main
+INFORMAZIONI: Fine: 05/10/2020 23:56:54:541
+ott 05, 2020 11:56:54 PM it.unisa.degpizz.thread.Main main
+INFORMAZIONI: Tempo impiegato: 00:04:268:16094:472
+ott 05, 2020 11:56:54 PM it.unisa.degpizz.thread.Main main
+INFORMAZIONI: MapCounter:
+FEAR : 1790139
+DISGUST : 2113152
+SURPRISE : 1402738
+HAPPINESS : 16507719
+NEUTRAL : 10158064
+SADNESS : 8625609
+ANGER : 3417644
+ott 05, 2020 11:56:54 PM it.unisa.degpizz.thread.Main main
+INFORMAZIONI: Successi parseText: 44015065
+ott 05, 2020 11:56:54 PM it.unisa.degpizz.thread.Main main
+INFORMAZIONI: Successi openFile: 231
+ott 05, 2020 11:56:54 PM it.unisa.degpizz.thread.Main main
+INFORMAZIONI: Errori parseText: 0
+ott 05, 2020 11:56:54 PM it.unisa.degpizz.thread.Main main
+INFORMAZIONI: Errori openFile: 0
+
+Process finished with exit code 0
