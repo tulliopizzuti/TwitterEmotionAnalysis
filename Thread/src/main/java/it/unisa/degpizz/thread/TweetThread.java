@@ -44,7 +44,6 @@ public class TweetThread extends Thread {
         LOGGER.log(Level.INFO, String.format("Avviato il thread: %s", name));
         for (File f : filesToParse) {
             LOGGER.log(Level.INFO, String.format("Thread: %s - Inizio file %s", name, f.getName()));
-
             try (BufferedReader br = getBufferedReaderForCompressedFile(f)) {
                 JsonStreamParser jsonStreamParser = new JsonStreamParser(br);
                 while (jsonStreamParser.hasNext()) {
@@ -56,21 +55,15 @@ public class TweetThread extends Thread {
                     } catch (Exception e) {
                         parseTextError.incrementAndGet();
                     }
-
-
                 }
                 LOGGER.log(Level.INFO, String.format("Thread: %s - Fine file %s", name, f.getName()));
-
             } catch (Exception e) {
                 fileOpenError.incrementAndGet();
                 LOGGER.log(Level.SEVERE, String.format("Thread: %s - Errore file %s", name, f.getName()));
-
             }
             counterFileParsed.incrementAndGet();
-
         }
         LOGGER.log(Level.INFO, String.format("Terminato il thread: %s", name));
-
     }
 
     public BufferedReader getBufferedReaderForCompressedFile(File fileIn) throws FileNotFoundException, CompressorException {

@@ -71,6 +71,9 @@ public class Main {
             LOGGER.log(Level.INFO,String.format("Fine file %s ",f.getName()));
             counterFileParsed++;
         }
+
+
+
         long millisFinish = System.currentTimeMillis();
         LOGGER.log(Level.INFO,String.format("Fine: %s", DF.format(new Date(millisFinish))));
 

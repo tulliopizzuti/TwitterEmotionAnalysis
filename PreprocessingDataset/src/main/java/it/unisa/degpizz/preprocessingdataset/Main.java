@@ -81,7 +81,6 @@ public class Main {
 
     private static boolean parseFile(File f, String prefix, String outputDir) {
         LOGGER.log(Level.INFO, String.format("Inizio file %s", prefix));
-
         Gson gson = new GsonBuilder().create();
         String fileName = prefix.replace(".bz2", "");
         File fileOutput = new File(outputDir + File.separator + fileName);
@@ -118,10 +117,12 @@ public class Main {
         } catch (Exception e) {
             LOGGER.log(Level.SEVERE, String.format("Errore durante la creazione del PrintWriter per %s", fileName));
             return false;
-
         }
-        String fileCompressedOutputName = prefix;
 
+
+
+
+        String fileCompressedOutputName = prefix;
         File compressed = new File(outputDir + File.separator + fileCompressedOutputName);
         if (compressed.exists()) {
             compressed.delete();
