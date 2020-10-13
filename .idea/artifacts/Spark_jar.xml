@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Spark:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Spark_jar</output-path>
+    <root id="archive" name="Spark.jar">
+      <element id="module-output" name="Spark" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/extLib/TextToEmotion.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

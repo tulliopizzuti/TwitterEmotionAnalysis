@@ -70,6 +70,7 @@ public class Main {
             }
             LOGGER.log(Level.INFO,String.format("Fine file %s ",f.getName()));
             counterFileParsed++;
+            break;
         }
 
 
