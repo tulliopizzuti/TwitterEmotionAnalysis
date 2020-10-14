@@ -1,0 +1,543 @@
+/usr/lib/jvm/java-1.8.0-openjdk-amd64/bin/java -javaagent:/home/tullio/idea-IC-202.6948.69/lib/idea_rt.jar=38135:/home/tullio/idea-IC-202.6948.69/bin -Dfile.encoding=UTF-8 -classpath /usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/cldrdata.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/icedtea-sound.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/jaccess.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/nashorn.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/sunec.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/management-agent.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar:/home/tullio/Project/soa/TwitterEmotionAnalysis/Sequential/target/classes:/home/tullio/Project/soa/TwitterEmotionAnalysis/extLib/TextToEmotion.jar:/home/tullio/.m2/repository/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar:/home/tullio/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar it.unisa.degpizz.sequential.Main /home/tullio/Project/soa/data/e_04_128
+ott 13, 2020 7:50:54 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio: 13/10/2020 19:50:54:257
+ott 13, 2020 7:50:54 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 34.json.bz2
+ott 13, 2020 7:54:21 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 34.json.bz2
+ott 13, 2020 7:54:21 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 12.json.bz2
+ott 13, 2020 7:57:45 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 12.json.bz2
+ott 13, 2020 7:57:45 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 80.json.bz2
+ott 13, 2020 8:01:09 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 80.json.bz2
+ott 13, 2020 8:01:09 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 30.json.bz2
+ott 13, 2020 8:04:34 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 30.json.bz2
+ott 13, 2020 8:04:34 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 98.json.bz2
+ott 13, 2020 8:07:58 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 98.json.bz2
+ott 13, 2020 8:07:58 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 73.json.bz2
+ott 13, 2020 8:11:22 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 73.json.bz2
+ott 13, 2020 8:11:22 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 108.json.bz2
+ott 13, 2020 8:14:48 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 108.json.bz2
+ott 13, 2020 8:14:48 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 93.json.bz2
+ott 13, 2020 8:18:13 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 93.json.bz2
+ott 13, 2020 8:18:13 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 94.json.bz2
+ott 13, 2020 8:21:38 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 94.json.bz2
+ott 13, 2020 8:21:38 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 104.json.bz2
+ott 13, 2020 8:25:03 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 104.json.bz2
+ott 13, 2020 8:25:03 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 38.json.bz2
+ott 13, 2020 8:28:26 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 38.json.bz2
+ott 13, 2020 8:28:26 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 50.json.bz2
+ott 13, 2020 8:31:48 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 50.json.bz2
+ott 13, 2020 8:31:48 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 112.json.bz2
+ott 13, 2020 8:35:13 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 112.json.bz2
+ott 13, 2020 8:35:13 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 101.json.bz2
+ott 13, 2020 8:38:39 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 101.json.bz2
+ott 13, 2020 8:38:39 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 19.json.bz2
+ott 13, 2020 8:42:01 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 19.json.bz2
+ott 13, 2020 8:42:01 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 92.json.bz2
+ott 13, 2020 8:45:27 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 92.json.bz2
+ott 13, 2020 8:45:27 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 111.json.bz2
+ott 13, 2020 8:48:53 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 111.json.bz2
+ott 13, 2020 8:48:53 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 6.json.bz2
+ott 13, 2020 8:52:19 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 6.json.bz2
+ott 13, 2020 8:52:19 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 42.json.bz2
+ott 13, 2020 8:55:41 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 42.json.bz2
+ott 13, 2020 8:55:41 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 88.json.bz2
+ott 13, 2020 8:59:04 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 88.json.bz2
+ott 13, 2020 8:59:04 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 75.json.bz2
+ott 13, 2020 9:02:28 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 75.json.bz2
+ott 13, 2020 9:02:28 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 106.json.bz2
+ott 13, 2020 9:05:56 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 106.json.bz2
+ott 13, 2020 9:05:56 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 71.json.bz2
+ott 13, 2020 9:09:21 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 71.json.bz2
+ott 13, 2020 9:09:21 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 68.json.bz2
+ott 13, 2020 9:12:48 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 68.json.bz2
+ott 13, 2020 9:12:48 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 25.json.bz2
+ott 13, 2020 9:16:12 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 25.json.bz2
+ott 13, 2020 9:16:12 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 78.json.bz2
+ott 13, 2020 9:19:37 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 78.json.bz2
+ott 13, 2020 9:19:37 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 99.json.bz2
+ott 13, 2020 9:23:04 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 99.json.bz2
+ott 13, 2020 9:23:04 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 64.json.bz2
+ott 13, 2020 9:26:30 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 64.json.bz2
+ott 13, 2020 9:26:30 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 23.json.bz2
+ott 13, 2020 9:29:55 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 23.json.bz2
+ott 13, 2020 9:29:55 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 40.json.bz2
+ott 13, 2020 9:33:19 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 40.json.bz2
+ott 13, 2020 9:33:19 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 41.json.bz2
+ott 13, 2020 9:36:46 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 41.json.bz2
+ott 13, 2020 9:36:46 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 77.json.bz2
+ott 13, 2020 9:40:10 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 77.json.bz2
+ott 13, 2020 9:40:10 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 46.json.bz2
+ott 13, 2020 9:43:37 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 46.json.bz2
+ott 13, 2020 9:43:37 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 62.json.bz2
+ott 13, 2020 9:47:01 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 62.json.bz2
+ott 13, 2020 9:47:01 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 15.json.bz2
+ott 13, 2020 9:50:25 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 15.json.bz2
+ott 13, 2020 9:50:25 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 31.json.bz2
+ott 13, 2020 9:53:49 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 31.json.bz2
+ott 13, 2020 9:53:49 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 54.json.bz2
+ott 13, 2020 9:57:13 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 54.json.bz2
+ott 13, 2020 9:57:13 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 76.json.bz2
+ott 13, 2020 10:00:36 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 76.json.bz2
+ott 13, 2020 10:00:36 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 37.json.bz2
+ott 13, 2020 10:04:01 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 37.json.bz2
+ott 13, 2020 10:04:01 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 26.json.bz2
+ott 13, 2020 10:07:27 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 26.json.bz2
+ott 13, 2020 10:07:27 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 48.json.bz2
+ott 13, 2020 10:10:52 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 48.json.bz2
+ott 13, 2020 10:10:52 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 83.json.bz2
+ott 13, 2020 10:14:18 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 83.json.bz2
+ott 13, 2020 10:14:18 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 100.json.bz2
+ott 13, 2020 10:17:44 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 100.json.bz2
+ott 13, 2020 10:17:44 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 1.json.bz2
+ott 13, 2020 10:21:09 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 1.json.bz2
+ott 13, 2020 10:21:09 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 89.json.bz2
+ott 13, 2020 10:24:35 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 89.json.bz2
+ott 13, 2020 10:24:35 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 69.json.bz2
+ott 13, 2020 10:28:01 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 69.json.bz2
+ott 13, 2020 10:28:01 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 65.json.bz2
+ott 13, 2020 10:31:24 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 65.json.bz2
+ott 13, 2020 10:31:24 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 3.json.bz2
+ott 13, 2020 10:34:50 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 3.json.bz2
+ott 13, 2020 10:34:50 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 74.json.bz2
+ott 13, 2020 10:38:13 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 74.json.bz2
+ott 13, 2020 10:38:13 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 10.json.bz2
+ott 13, 2020 10:41:38 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 10.json.bz2
+ott 13, 2020 10:41:38 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 102.json.bz2
+ott 13, 2020 10:45:03 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 102.json.bz2
+ott 13, 2020 10:45:03 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 7.json.bz2
+ott 13, 2020 10:48:31 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 7.json.bz2
+ott 13, 2020 10:48:31 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 107.json.bz2
+ott 13, 2020 10:51:57 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 107.json.bz2
+ott 13, 2020 10:51:57 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 45.json.bz2
+ott 13, 2020 10:55:25 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 45.json.bz2
+ott 13, 2020 10:55:25 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 96.json.bz2
+ott 13, 2020 10:58:49 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 96.json.bz2
+ott 13, 2020 10:58:49 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 35.json.bz2
+ott 13, 2020 11:02:13 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 35.json.bz2
+ott 13, 2020 11:02:13 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 110.json.bz2
+ott 13, 2020 11:05:40 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 110.json.bz2
+ott 13, 2020 11:05:40 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 57.json.bz2
+ott 13, 2020 11:09:03 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 57.json.bz2
+ott 13, 2020 11:09:03 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 13.json.bz2
+ott 13, 2020 11:12:28 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 13.json.bz2
+ott 13, 2020 11:12:28 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 95.json.bz2
+ott 13, 2020 11:15:55 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 95.json.bz2
+ott 13, 2020 11:15:55 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 36.json.bz2
+ott 13, 2020 11:19:22 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 36.json.bz2
+ott 13, 2020 11:19:22 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 9.json.bz2
+ott 13, 2020 11:22:47 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 9.json.bz2
+ott 13, 2020 11:22:47 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 84.json.bz2
+ott 13, 2020 11:26:10 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 84.json.bz2
+ott 13, 2020 11:26:10 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 22.json.bz2
+ott 13, 2020 11:29:34 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 22.json.bz2
+ott 13, 2020 11:29:34 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 63.json.bz2
+ott 13, 2020 11:32:59 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 63.json.bz2
+ott 13, 2020 11:32:59 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 16.json.bz2
+ott 13, 2020 11:36:24 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 16.json.bz2
+ott 13, 2020 11:36:24 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 72.json.bz2
+ott 13, 2020 11:39:51 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 72.json.bz2
+ott 13, 2020 11:39:51 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 43.json.bz2
+ott 13, 2020 11:43:17 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 43.json.bz2
+ott 13, 2020 11:43:17 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 51.json.bz2
+ott 13, 2020 11:46:42 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 51.json.bz2
+ott 13, 2020 11:46:42 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 55.json.bz2
+ott 13, 2020 11:50:10 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 55.json.bz2
+ott 13, 2020 11:50:10 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 11.json.bz2
+ott 13, 2020 11:53:36 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 11.json.bz2
+ott 13, 2020 11:53:36 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 59.json.bz2
+ott 13, 2020 11:57:00 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 59.json.bz2
+ott 13, 2020 11:57:00 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 39.json.bz2
+ott 14, 2020 12:00:25 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 39.json.bz2
+ott 14, 2020 12:00:25 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 114.json.bz2
+ott 14, 2020 12:03:51 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 114.json.bz2
+ott 14, 2020 12:03:51 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 97.json.bz2
+ott 14, 2020 12:07:17 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 97.json.bz2
+ott 14, 2020 12:07:17 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 27.json.bz2
+ott 14, 2020 12:10:41 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 27.json.bz2
+ott 14, 2020 12:10:41 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 103.json.bz2
+ott 14, 2020 12:14:05 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 103.json.bz2
+ott 14, 2020 12:14:05 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 87.json.bz2
+ott 14, 2020 12:17:29 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 87.json.bz2
+ott 14, 2020 12:17:29 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 53.json.bz2
+ott 14, 2020 12:20:55 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 53.json.bz2
+ott 14, 2020 12:20:55 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 4.json.bz2
+ott 14, 2020 12:24:19 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 4.json.bz2
+ott 14, 2020 12:24:19 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 24.json.bz2
+ott 14, 2020 12:27:43 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 24.json.bz2
+ott 14, 2020 12:27:43 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 44.json.bz2
+ott 14, 2020 12:31:08 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 44.json.bz2
+ott 14, 2020 12:31:08 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 14.json.bz2
+ott 14, 2020 12:34:34 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 14.json.bz2
+ott 14, 2020 12:34:34 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 47.json.bz2
+ott 14, 2020 12:37:58 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 47.json.bz2
+ott 14, 2020 12:37:58 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 81.json.bz2
+ott 14, 2020 12:41:22 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 81.json.bz2
+ott 14, 2020 12:41:22 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 56.json.bz2
+ott 14, 2020 12:44:49 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 56.json.bz2
+ott 14, 2020 12:44:49 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 17.json.bz2
+ott 14, 2020 12:48:14 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 17.json.bz2
+ott 14, 2020 12:48:14 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 113.json.bz2
+ott 14, 2020 12:51:38 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 113.json.bz2
+ott 14, 2020 12:51:38 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 49.json.bz2
+ott 14, 2020 12:55:03 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 49.json.bz2
+ott 14, 2020 12:55:03 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 8.json.bz2
+ott 14, 2020 12:58:28 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 8.json.bz2
+ott 14, 2020 12:58:28 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 115.json.bz2
+ott 14, 2020 1:01:37 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 115.json.bz2
+ott 14, 2020 1:01:37 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 61.json.bz2
+ott 14, 2020 1:05:01 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 61.json.bz2
+ott 14, 2020 1:05:01 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 105.json.bz2
+ott 14, 2020 1:08:27 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 105.json.bz2
+ott 14, 2020 1:08:27 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 70.json.bz2
+ott 14, 2020 1:11:53 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 70.json.bz2
+ott 14, 2020 1:11:53 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 5.json.bz2
+ott 14, 2020 1:15:19 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 5.json.bz2
+ott 14, 2020 1:15:19 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 91.json.bz2
+ott 14, 2020 1:18:46 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 91.json.bz2
+ott 14, 2020 1:18:46 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 82.json.bz2
+ott 14, 2020 1:22:10 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 82.json.bz2
+ott 14, 2020 1:22:10 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 79.json.bz2
+ott 14, 2020 1:25:36 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 79.json.bz2
+ott 14, 2020 1:25:36 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 66.json.bz2
+ott 14, 2020 1:29:01 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 66.json.bz2
+ott 14, 2020 1:29:01 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 90.json.bz2
+ott 14, 2020 1:32:26 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 90.json.bz2
+ott 14, 2020 1:32:26 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 29.json.bz2
+ott 14, 2020 1:35:53 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 29.json.bz2
+ott 14, 2020 1:35:53 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 28.json.bz2
+ott 14, 2020 1:39:17 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 28.json.bz2
+ott 14, 2020 1:39:17 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 33.json.bz2
+ott 14, 2020 1:42:43 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 33.json.bz2
+ott 14, 2020 1:42:43 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 18.json.bz2
+ott 14, 2020 1:46:07 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 18.json.bz2
+ott 14, 2020 1:46:07 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 109.json.bz2
+ott 14, 2020 1:49:32 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 109.json.bz2
+ott 14, 2020 1:49:32 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 52.json.bz2
+ott 14, 2020 1:52:56 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 52.json.bz2
+ott 14, 2020 1:52:56 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 67.json.bz2
+ott 14, 2020 1:56:23 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 67.json.bz2
+ott 14, 2020 1:56:23 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 32.json.bz2
+ott 14, 2020 1:59:48 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 32.json.bz2
+ott 14, 2020 1:59:48 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 85.json.bz2
+ott 14, 2020 2:03:12 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 85.json.bz2
+ott 14, 2020 2:03:12 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 21.json.bz2
+ott 14, 2020 2:06:37 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 21.json.bz2
+ott 14, 2020 2:06:37 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 2.json.bz2
+ott 14, 2020 2:10:02 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 2.json.bz2
+ott 14, 2020 2:10:02 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 86.json.bz2
+ott 14, 2020 2:13:26 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 86.json.bz2
+ott 14, 2020 2:13:26 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 60.json.bz2
+ott 14, 2020 2:16:51 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 60.json.bz2
+ott 14, 2020 2:16:51 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 58.json.bz2
+ott 14, 2020 2:20:14 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 58.json.bz2
+ott 14, 2020 2:20:14 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 20.json.bz2
+ott 14, 2020 2:23:38 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 20.json.bz2
+ott 14, 2020 2:23:38 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine: 14/10/2020 02:23:38:922
+ott 14, 2020 2:23:38 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Tempo impiegato: 00:06:392:23564:665
+ott 14, 2020 2:23:38 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: MapCounter:
+FEAR, HAPPINESS, SURPRISE : 1193
+ANGER, FEAR, SADNESS, SURPRISE : 639
+SURPRISE : 1402738
+SADNESS, SURPRISE : 42486
+ANGER, DISGUST, SADNESS, SURPRISE : 305
+HAPPINESS : 12539566
+ANGER, DISGUST, FEAR, HAPPINESS, SADNESS : 18911
+ANGER, DISGUST, FEAR, SADNESS, SURPRISE : 430
+FEAR : 1684296
+ANGER, HAPPINESS, SADNESS, SURPRISE : 989
+ANGER, SADNESS : 260873
+DISGUST, FEAR : 84055
+FEAR, HAPPINESS : 54472
+ANGER, DISGUST, HAPPINESS, SURPRISE : 2171
+NEUTRAL : 10158064
+ANGER, FEAR : 780850
+FEAR, HAPPINESS, SADNESS : 36997
+ANGER, DISGUST, FEAR, HAPPINESS, SADNESS, SURPRISE : 1133
+ANGER, HAPPINESS, SADNESS : 15751
+ANGER, DISGUST, FEAR, HAPPINESS, SURPRISE : 262
+ANGER, FEAR, HAPPINESS, SADNESS : 57690
+ANGER, DISGUST, FEAR, SURPRISE : 603
+DISGUST, FEAR, SADNESS, SURPRISE : 4032
+DISGUST, FEAR, HAPPINESS, SURPRISE : 1814
+DISGUST, FEAR, HAPPINESS, SADNESS : 17685
+DISGUST, FEAR, HAPPINESS, SADNESS, SURPRISE : 1623
+ANGER, SADNESS, SURPRISE : 106642
+ANGER, DISGUST, FEAR, SADNESS : 154432
+ANGER, FEAR, SADNESS : 7037
+FEAR, SADNESS : 1071759
+ANGER, DISGUST : 120752
+ANGER, FEAR, HAPPINESS, SADNESS, SURPRISE : 854
+DISGUST, FEAR, HAPPINESS : 4462
+DISGUST, HAPPINESS, SADNESS : 11729
+DISGUST, SURPRISE : 11931
+ANGER, DISGUST, FEAR : 8704
+ANGER, DISGUST, FEAR, HAPPINESS : 4632
+DISGUST, FEAR, SADNESS : 925323
+DISGUST : 2101222
+ANGER, DISGUST, SURPRISE : 1252
+HAPPINESS, SURPRISE : 1219542
+ANGER, HAPPINESS, SURPRISE : 7915
+ANGER, DISGUST, HAPPINESS, SADNESS : 473
+ANGER, SURPRISE : 111754
+DISGUST, SADNESS : 57608
+DISGUST, SADNESS, SURPRISE : 1669
+HAPPINESS, SADNESS : 1411551
+ANGER : 2391501
+FEAR, SURPRISE : 3870
+ANGER, FEAR, SURPRISE : 2229
+ANGER, FEAR, HAPPINESS : 37519
+ANGER, HAPPINESS : 640816
+DISGUST, FEAR, SURPRISE : 17916
+ANGER, FEAR, HAPPINESS, SURPRISE : 545
+DISGUST, HAPPINESS : 134756
+FEAR, HAPPINESS, SADNESS, SURPRISE : 1001
+DISGUST, HAPPINESS, SADNESS, SURPRISE : 2461
+FEAR, SADNESS, SURPRISE : 3368
+ANGER, DISGUST, HAPPINESS, SADNESS, SURPRISE : 81
+HAPPINESS, SADNESS, SURPRISE : 16943
+DISGUST, HAPPINESS, SURPRISE : 252809
+ANGER, DISGUST, HAPPINESS : 9372
+ANGER, DISGUST, SADNESS : 3185
+SADNESS : 5985822
+ott 14, 2020 2:23:38 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Successi parseText: 44015065
+ott 14, 2020 2:23:38 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Successi openFile: 115
+ott 14, 2020 2:23:38 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Errori parseText: 0
+ott 14, 2020 2:23:38 AM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Errori openFile: 0
+
+Process finished with exit code 0
