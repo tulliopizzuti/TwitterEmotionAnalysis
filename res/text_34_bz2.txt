@@ -1,0 +1,26 @@
+ott 14, 2020 1:23:32 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Inizio file 34.json.bz2
+ott 14, 2020 1:29:19 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine file 34.json.bz2
+ott 14, 2020 1:29:19 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Fine: 14/10/2020 13:29:19:369
+ott 14, 2020 1:29:19 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Tempo impiegato: 00:00:05:346:575
+ott 14, 2020 1:29:19 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: MapCounter:
+FEAR : 22464
+DISGUST : 18830
+SURPRISE : 11746
+HAPPINESS : 145304
+NEUTRAL : 90306
+SADNESS : 75634
+ANGER : 21226
+ott 14, 2020 1:29:19 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Successi parseText: 385510
+ott 14, 2020 1:29:19 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Successi openFile: 1
+ott 14, 2020 1:29:19 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Errori parseText: 0
+ott 14, 2020 1:29:19 PM it.unisa.degpizz.sequential.Main main
+INFORMAZIONI: Errori openFile: 0
+
