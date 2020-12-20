@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="PreprocessingDataset" />
         <module name="Spark" />
+        <module name="SparkTestCompression" />
         <module name="Sequential" />
         <module name="ThreadInformation" />
         <module name="Thread" />
@@ -17,6 +18,7 @@
       <module name="PreprocessingDataset" target="8" />
       <module name="Sequential" target="8" />
       <module name="Spark" target="8" />
+      <module name="SparkTestCompression" target="8" />
       <module name="Thread" target="8" />
       <module name="ThreadInformation" target="8" />
       <module name="TweetParseEmotion" target="1.5" />

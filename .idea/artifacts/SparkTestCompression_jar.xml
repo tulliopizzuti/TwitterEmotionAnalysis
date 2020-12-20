@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SparkTestCompression:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/SparkTestCompression_jar</output-path>
+    <root id="archive" name="SparkTestCompression.jar">
+      <element id="module-output" name="SparkTestCompression" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../TextToEmotion-master/out/artifacts/TextToEmotion_jar/TextToEmotion.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/extLib/hadoop-lzo-21.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

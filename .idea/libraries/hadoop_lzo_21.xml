@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="hadoop-lzo-21">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/extLib/hadoop-lzo-21.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
