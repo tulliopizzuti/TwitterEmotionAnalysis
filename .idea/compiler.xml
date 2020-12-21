@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="PreprocessingDataset" />
-        <module name="Spark" />
         <module name="SparkTestCompression" />
         <module name="Sequential" />
+        <module name="PreprocessingDataset" />
+        <module name="Spark" />
         <module name="ThreadInformation" />
+        <module name="SparkLZO" />
         <module name="Thread" />
       </profile>
     </annotationProcessing>
@@ -18,6 +19,7 @@
       <module name="PreprocessingDataset" target="8" />
       <module name="Sequential" target="8" />
       <module name="Spark" target="8" />
+      <module name="SparkLZO" target="8" />
       <module name="SparkTestCompression" target="8" />
       <module name="Thread" target="8" />
       <module name="ThreadInformation" target="8" />

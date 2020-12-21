@@ -1,4 +1,4 @@
-package spark;
+package it.unisa.degpizz.spark;
 
 import org.chaiware.app.TextToEmotion;
 

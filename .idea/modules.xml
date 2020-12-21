@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/PreprocessingDataset/PreprocessingDataset.iml" filepath="$PROJECT_DIR$/PreprocessingDataset/PreprocessingDataset.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sequential/Sequential.iml" filepath="$PROJECT_DIR$/Sequential/Sequential.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spark/Spark.iml" filepath="$PROJECT_DIR$/Spark/Spark.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SparkLZO/SparkLZO.iml" filepath="$PROJECT_DIR$/SparkLZO/SparkLZO.iml" />
       <module fileurl="file://$PROJECT_DIR$/SparkTestCompression/SparkTestCompression.iml" filepath="$PROJECT_DIR$/SparkTestCompression/SparkTestCompression.iml" />
       <module fileurl="file://$PROJECT_DIR$/Thread/Thread.iml" filepath="$PROJECT_DIR$/Thread/Thread.iml" />
       <module fileurl="file://$PROJECT_DIR$/ThreadInformation/ThreadInformation.iml" filepath="$PROJECT_DIR$/ThreadInformation/ThreadInformation.iml" />

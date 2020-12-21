@@ -1,4 +1,4 @@
-package spark;
+package it.unisa.degpizz.spark;
 
 public class Tweet {
     private String text;

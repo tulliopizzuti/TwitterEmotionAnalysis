@@ -1,4 +1,4 @@
-package spark;
+package it.unisa.degpizz.spark;
 
 
 import com.hadoop.mapreduce.LzoTextInputFormat;
@@ -7,6 +7,7 @@ import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
+import org.apache.spark.SparkConf;
 import org.apache.spark.SparkContext;
 import org.apache.spark.api.java.JavaRDD;
 import org.apache.spark.rdd.RDD;
@@ -22,15 +23,17 @@ public final class SparkTweetAnalysis {
             System.out.println("<folder input>");
             return;
         }
-        SparkSession spark = SparkSession.builder().appName("SparkTweetAnalysisCheckCompression").getOrCreate();
+        SparkConf sparkConf=new SparkConf().registerKryoClasses(new Class<?>[]{
+                Class.forName("org.apache.hadoop.io.LongWritable"),
+                Class.forName("org.apache.hadoop.io.Text")
+        });
+        SparkSession spark = SparkSession.builder().appName("SparkTweetAnalysisCheckCompression").config(sparkConf).getOrCreate();
         SparkContext context=spark.sparkContext();
         FileSystem fs = FileSystem.get(context.hadoopConfiguration());
+        //spark.conf()
+
         RDD<Tuple2<LongWritable,Text>> data= context.newAPIHadoopFile(args[0], LzoTextInputFormat.class, LongWritable.class, Text.class, new Configuration());
-        spark.read().json();
-
-
-        Dataset<String> dataString =  spark.createDataset(data.toJavaRDD().map(x->x._2.toString()).rdd(), Encoders.bean(String.class));
-        Dataset<Row> dsr=spark.read().json(dataString);
+        Dataset<Row> dsr=spark.read().json(data.toJavaRDD().map(x->x._2().toString()));
         Dataset<Row> dsr2=dsr.select("text");
         dsr2.show();
 
