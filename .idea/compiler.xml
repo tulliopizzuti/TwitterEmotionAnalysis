@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="SparkTestCompression" />
         <module name="Sequential" />
+        <module name="Spark4MC" />
         <module name="PreprocessingDataset" />
         <module name="Spark" />
         <module name="ThreadInformation" />
@@ -19,6 +20,7 @@
       <module name="PreprocessingDataset" target="8" />
       <module name="Sequential" target="8" />
       <module name="Spark" target="8" />
+      <module name="Spark4MC" target="8" />
       <module name="SparkLZO" target="8" />
       <module name="SparkTestCompression" target="8" />
       <module name="Thread" target="8" />

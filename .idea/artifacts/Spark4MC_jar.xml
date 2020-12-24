@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Spark4MC:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Spark4MC_jar</output-path>
+    <root id="archive" name="Spark4MC.jar">
+      <element id="module-output" name="Spark4MC" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/extLib/TextToEmotion.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/extLib/hadoop-4mc.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

@@ -14,17 +14,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/../extLib" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-        <jarDirectory url="file://$MODULE_DIR$/../extLib" recursive="false" />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../extLib/hadoop-lzo-21.jar!/" />
+          <root url="jar://$MODULE_DIR$/../extLib/hadoop-4mc.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

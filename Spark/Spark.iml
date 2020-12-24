@@ -175,6 +175,5 @@
     <orderEntry type="library" name="Maven: com.carrotsearch:hppc:0.7.2" level="project" />
     <orderEntry type="library" name="Maven: com.vlkan:flatbuffers:1.2.0-3f79e055" level="project" />
     <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.8.0" level="project" />
-    <orderEntry type="library" name="Maven: com.hadoop.gplcompression:hadoop-lzo:0.4.16" level="project" />
   </component>
 </module>
